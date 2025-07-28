@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Pratyush jha </title>
-</head>
+<title>GFG  SURVEY FROM </title>
 <body>
-    <header>
-        <h1 style="text-align:center;">Pratyush Jha</h1>
-        <p style="text-align:center;">Home | Projects | Blogs | Contact</p>
-    </header>
-    <h2 style="text-align:center;">Web Developer </h2>
-    <table border="1" width="100%">
-        <tr>
-            <td>
-                <h3>Portfolio Highlights</h3>
-                <ul>
-                    <li>Responsive HTML Layout</li>
-                    <li>E-commerce Storefront</li>
-                    <li>Interactive Form Design</li>
-                    <li>Event Countdown Widget</li>
-                    <li>Prototype Landing Pages</li>
-                </ul>
-            </td>
-            <td>
-                <h3>Career Achievements</h3>
-                <p>Frontend Developer [Intern] at Indianic<br>work on a job portal  project in my ungraduate for the period of 1 year. <br><a href="https://www.linkedin.com/in/pratyushjha15ps28/">View My LinkedIn Profile</a></p>
-               <!-- <p>Active participant in local and online developer forums. Regularly contribute to web development blogs and GitHub projects.<br><a href="#">Visit My GitHub</a></p> !-->
-                <P>SQL Developer [ Summer Intern]  at celebal Technologis <br> learn the sql query and how to work with database and solves some advance query.</P>
-            </td>
-            <td>
-                <h3>Academic Qualifications</h3>
-                <p>M.sc (Information Technology) from DAU( DAIICT ), Gandhinagar</p>
-                <p>BCA from St. xaviers college, Ahmedabad</p>
-                <p> 12th (Commerce + Math's) from St. karen's High school, Patna</p>
-                <p>10th from D.A.V public school, Samastipur</p>
-                <p>Specializations:</p>
-                <ul>
-                    <li>Systems Analysis</li>
-                    <li>Advanced JavaScript Techniques</li>
-                    <li>Web Accessibility Standards</li>
-                   <!-- <li>Performance Optimization in Web Applications</li>
-                    <li>Cloud Computing Infrastructure</li>
-                    <li>Security in Web Applications</li> -->
-                    <li>Advanced Algorithms</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
-    <h3>Peer Reviews</h3>
-    <table border="1" width="100%">
-        <tr>
-            <td>Pratyush jhs consistently delivers high-quality, innovative solutions that exceed project expectations. - Steven, Project Lead</td>
-            <td>Pratyush jha is known for his precise attention to detail and his ability to mentor younger developers. - David, UI Designer</td>
-            <td>Pratyush's approach to problem-solving has been instrumental in our success. - Sarah, Frontend Developer</td>
-        </tr>
-    </table>
-    <footer style="text-align:center;">
-        © [2025] All rights reserved by pratyush jha
-    </footer>
+  
+ <h1 style= text-align:center>
+     Survey form 
+ </h1>  
+ <div class="form-control">
+            <label for="name" id="label-name">Name</label><BR>
+            <input type="text" id="name" placeholder="Enter your name"  />
+        </div><br>
+
+  <div class="form-control">
+      <label for="email" id ="label-name"> EMAIL</label><br>
+      <input type="text" id="name" placeholder="Enter your email" />
+  </div><br>
+
+   <div class="form-control">
+            <label for="age" id="label-age">Age</label><br>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div><br>
+        
+    <div class="form-control">
+            <label for="role" id="label-role">Which option best describes you?</label><br>
+            <select name="role" id="role">
+                <option value="select">select</option>
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+    </div><br>
+  <div class="form-control">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small> <br>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C
+            </label><br>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++
+            </label><br>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#
+            </label><br>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java
+            </label><br>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python
+            </label><br>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript
+            </label><br>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React
+            </label><br>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Angular
+            </label><br>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">Django
+            </label><br>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Spring
+            </label><br>
+        </div>
+        <br>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label><br>
+            <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit" value="submit">Submit</button>
+        
 </body>
 </html>
